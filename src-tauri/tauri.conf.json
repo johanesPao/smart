@@ -12,19 +12,24 @@
   "app": {
     "windows": [
       {
+        "label": "main",
         "title": "SOSCO Merchandising Analytics and Reporting Tool",
-        "width": 800,
-        "height": 600,
+        "center": true,
+        "theme": "Dark",
         "resizable": true,
-        "fullscreen": false,
+        "maximized": true,
+        "decorations": false,
+        "transparent": true,
         "visible": false
       },
       {
+        "label": "splashscreen",
         "width": 400,
         "height": 200,
+        "center": true,
+        "theme": "Dark",
         "decorations": false,
-        "url": "splashscreen.html",
-        "label": "splashscreen"
+        "url": "splashscreen.html"
       }
     ],
     "security": {
